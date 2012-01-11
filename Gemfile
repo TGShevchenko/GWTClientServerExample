@@ -30,11 +30,11 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug'
-gem 'rails', '3.1.3'
+##gem 'rails', '3.1.3'
 
 gem 'mysql2'
 gem 'json'
-gem 'ruby-debug'
+##gem 'ruby-debug'
 #gem 'ttfunk'
 #gem 'calendar_date_select', :git => 'http://github.com/paneq/calendar_date_select.git', :branch => 'rails3test'
 #gem 'best_in_place'
