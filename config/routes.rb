@@ -57,4 +57,26 @@ Tstudio::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id(.:format)))'
+  #ActionController::Routing::Routes.draw do |map|
+    # map.resources :orders
+
+    #map.resources :home, :only => [:index, :show]
+
+    #map.resources :signed_in, :only => [:index, :show]
+    #map.connect ':controller/:action/:id'
+    #map.connect ':controller/:action.html'
+    #map.connect ':controller/:action.htm'
+
+    #map.root :controller => :home
+
+    resources :home, :only => [:index, :show]
+
+    resources :signed_in, :only => [:index, :show]
+    #connect ':controller/:action/:id'
+    #connect ':controller/:action.html'
+    #connect ':controller/:action.htm'
+
+    #root :controller => :home
+
+ # end
 end
