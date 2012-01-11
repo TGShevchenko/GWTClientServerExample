@@ -36,8 +36,8 @@ gem 'mysql2'
 gem 'json'
 gem 'ruby-debug'
 #gem 'ttfunk'
-gem 'calendar_date_select', :git => 'http://github.com/paneq/calendar_date_select.git', :branch => 'rails3test'
-gem 'best_in_place'
+#gem 'calendar_date_select', :git => 'http://github.com/paneq/calendar_date_select.git', :branch => 'rails3test'
+#gem 'best_in_place'
 
 # Gems used only for assets and not required
 # in production environments by default.
