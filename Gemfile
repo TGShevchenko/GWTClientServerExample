@@ -56,6 +56,7 @@ gem 'settingslogic'
 gem 'fastercsv'
 gem 'paperclip'
 gem 'therubyracer'
+gem 'actionmailer'
 
 gem "rspec-rails", :group => [:test, :development]
 
